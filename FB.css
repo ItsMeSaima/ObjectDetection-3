@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-72075.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+margin-left: 150px;
+font-family: pacifico;
+font-size: 45px;
+background: repeating-linear-gradient(45deg, rgb(177, 189, 255), rgb(220, 231, 255), white,  white);
+border-radius: 50px;
+border:solid;
+border-style:outset;
+border-color: white;
+border-width: 5px;
+}
+
+#back1 {
+    font-size: 15px;
+    
+    border-radius: 3px;
+    border-color: transparent;
+width: 9%;
+height: 6%;
+font-family: pacifico;
+background: repeating-linear-gradient(45deg, white, white, whitesmoke,  lightgrey);
+
+color: black;
+font-family: fascinate inline;
+box-shadow: 5px 5px 5px #808080;
+}
+
+
+
+
+
+
+#status3, #detected3 {
+    margin-top: -100px; 
+    color: #ffffff; 
+    background: #4575cf;
+    font-family: courier prime;
+border-radius: 5px;
+border-color:#ffffff;
+border-style: inset;
+
+}
+
+canvas {
+    box-shadow: 10px 10px 10px #808080;
+    border-radius: 10px;
+    margin-top: 170px;
+}

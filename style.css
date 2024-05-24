@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background-size: cover;
+    text-align: center;
+
+}
+
+h1 {
+   
+   
+font-family:fascinate inline;
+text-decoration:underline ;
+font-size: 40px;
+
+}
+
+h5 {
+   
+   
+    font-family:dancing script;
+   
+    font-size: 20px;
+    font-weight: bolder;
+    
+    }
+button{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+width: 33%;
+height: 9%;
+font-family: pacifico;
+background: repeating-linear-gradient(45deg, white, white, whitesmoke,  lightgrey);
+
+}
+a{
+    color: black;
+}
+
+button:hover{
+    font-size: 25px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: transparent;
+width: 33%;
+height: 9%;
+font-family: pacifico;
+background: repeating-linear-gradient(45deg, white, white, whitesmoke, lightgrey);
+transition: .8s;
+border-width: 3px;
+transform: scale(1.1);
+}
+
+a:hover{
+    color: rgb(82, 182, 240);
+}
